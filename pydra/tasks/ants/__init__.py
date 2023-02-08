@@ -4,5 +4,9 @@
 """
 
 from .ants_registration_syn_quick import ANTSRegistrationSyNQuick
+from .n4_bias_field_correction import N4BiasFieldCorrection
 
-__all__ = ["ANTSRegistrationSyNQuick"]
+__all__ = [
+    "ANTSRegistrationSyNQuick",
+    "N4BiasFieldCorrection",
+]
